@@ -30,7 +30,7 @@ while True:
     print(
         f"User>>> {user_input}",
     )
-    print("도봉이>>> ", end="")
+    print("도봉이>>> ", end="",flush=True)
     for chunk in dobongi(response):
         print(chunk, end="")
     print("\n", end="")
