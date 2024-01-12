@@ -34,3 +34,4 @@ while True:
     for chunk in dobongi(response):
         print(chunk, end="")
     print("\n", end="")
+# hmmm.....
