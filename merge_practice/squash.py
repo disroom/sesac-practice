@@ -31,7 +31,9 @@ while True:
         f"User>>> {user_input}",
     )
     print("도봉이>>> ", end="")
+    
     for chunk in dobongi(response):
         print(chunk, end="")
+    #\n 없애도 되지 않을까?
     print("\n", end="")
 # hmmm.....
